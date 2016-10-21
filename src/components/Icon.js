@@ -4,7 +4,7 @@ import graphics from '../data/graphics'
 
 const Icon = ({
   type,
-  fill = colors.normal.white,
+  fill = colors.gray5,
   size = '100%',
 }) => (
   <svg

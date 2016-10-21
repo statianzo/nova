@@ -19,7 +19,7 @@ import List from '../List'
 import Link from '../Link'
 import Image from '../Image'
 
-const tabBorder = `${borderSizes.medium}px solid ${colors.decoration.medium}`;
+const tabBorder = `${borderSizes.medium}px solid ${colors.gray2}`;
 
 class Platforms extends React.Component {
 
@@ -56,8 +56,8 @@ class Platforms extends React.Component {
               onClick={this.handleTabClick.bind(this, index)}
               style={{
                 background: index === this.state.activeTab
-                  ? colors.normal.black
-                  : colors.decoration.medium,
+                  ? colors.gray1
+                  : colors.gray2,
                 flex: 1,
                 display: 'flex',
                 justifyContent: 'center',
@@ -74,8 +74,8 @@ class Platforms extends React.Component {
                   type={platform.icon}
                   fill={
                     index === this.state.activeTab
-                      ? colors.normal.cyan
-                      : colors.normal.black
+                      ? colors.cyan
+                      : colors.gray1
                   }
                 />
               </div>

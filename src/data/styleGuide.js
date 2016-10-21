@@ -5,7 +5,10 @@ export const screenSizes = {
   large: 740,
 }
 
-export const colors = novaColors
+export const colors = {
+  ...novaColors.colors,
+  ...novaColors.grays,
+}
 
 export const fontFamilies = {
   primary: '"Quicksand", sans-serif',

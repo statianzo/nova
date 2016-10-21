@@ -6,7 +6,7 @@ const Section = ({src, quiet = false}) => (
   <Link href={src}>
     <img
       style={{
-        border: quiet ? 0 : `${borderSizes.small}px solid ${colors.decoration.light}`,
+        border: quiet ? 0 : `${borderSizes.small}px solid ${colors.gray3}`,
         borderRadius: borderRadii.medium,
         width: '100%',
       }}

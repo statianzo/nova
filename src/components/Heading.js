@@ -9,25 +9,25 @@ import {
 
 export const levelSpecificStyles = {
   1: {
-    color: colors.normal.cyan,
+    color: colors.cyan,
     fontSize: fontSizes.xxlarge,
     lineHeight: lineHeights.xxlarge,
     textAlign: 'center',
   },
   2: {
-    color: colors.normal.white,
+    color: colors.gray5,
     fontSize: fontSizes.large,
     textAlign: 'center',
     marginBottom: spacing.medium,
   },
   3: {
-    color: colors.normal.white,
+    color: colors.gray5,
     fontSize: fontSizes.medium,
     textTransform: 'uppercase',
     marginBottom: spacing.small,
   },
   4: {
-    color: colors.normal.cyan,
+    color: colors.cyan,
     fontSize: fontSizes.xlarge,
     lineHeight: 1,
     marginBottom: spacing.xsmall,

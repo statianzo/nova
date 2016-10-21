@@ -2,7 +2,7 @@ import React from 'react'
 import {colors, spacing, fontSizes} from '../data/styleGuide'
 import Icon from './Icon'
 
-const symbolColor = colors.normal.green
+const symbolColor = colors.green
 
 const List = ({
   items,

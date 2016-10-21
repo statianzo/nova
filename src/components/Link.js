@@ -10,7 +10,7 @@ const Link = ({
     href={href}
     target='_blank'
     style={{
-      color: colors.normal.blue,
+      color: colors.blue,
       textDecoration: 'none',
       display: inline ? 'inline' : 'block',
       lineHeight: 0,

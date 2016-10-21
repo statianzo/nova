@@ -28,7 +28,7 @@ const Contributors = () => (
       }}>
         <Icon
           type='heart'
-          fill={colors.normal.red}
+          fill={colors.red}
           size={fontSizes.medium}
         />
       </div>

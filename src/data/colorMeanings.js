@@ -3,65 +3,65 @@ import {colors} from './styleGuide'
 const colorMeanings = [
   [
     {
-      value: colors.normal.cyan,
+      value: colors.cyan,
       meaning: 'Value / State',
     },
     {
-      value: colors.normal.blue,
+      value: colors.blue,
       meaning: 'Identifier',
     },
     {
-      value: colors.normal.magenta,
+      value: colors.purple,
       meaning: 'Global',
     },
     {
-      value: colors.bright.magenta,
+      value: colors.pink,
       meaning: 'Emphasis',
     },
     {
-      value: colors.normal.red,
+      value: colors.red,
       meaning: 'Action Needed',
     },
     {
-      value: colors.bright.red,
+      value: colors.orange,
       meaning: 'Special',
     },
     {
-      value: colors.normal.yellow,
+      value: colors.yellow,
       meaning: 'Statement',
     },
     {
-      value: colors.normal.green,
+      value: colors.green,
       meaning: 'Type',
     },
   ],
   [
     {
-      value: colors.decoration.dark,
+      value: colors.gray0,
       meaning: 'Decoration',
     },
     {
-      value: colors.decoration.light,
+      value: colors.gray3,
       meaning: 'Decoration',
     },
     {
-      value: colors.decoration.medium,
+      value: colors.gray2,
       meaning: 'Decoration',
     },
     {
-      value: colors.normal.black,
+      value: colors.gray1,
       meaning: 'Default Back',
     },
     {
-      value: colors.bright.black,
+      value: colors.gray4,
       meaning: 'Trivial',
     },
     {
-      value: colors.normal.white,
+      value: colors.gray5,
       meaning: 'Default Text',
     },
     {
-      value: colors.bright.white,
+      value: colors.gray6,
       meaning: 'Decoration',
     },
   ],

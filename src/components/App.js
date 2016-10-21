@@ -54,8 +54,8 @@ class App extends React.Component {
   render() {
     return (
       <div style={{
-        background: colors.normal.black,
-        color: colors.bright.black,
+        background: colors.gray1,
+        color: colors.gray4,
         fontFamily: fontFamilies.primary,
         fontSize: fontSizes.medium,
         fontWeight: fontWeights.normal,
